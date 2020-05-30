@@ -109,3 +109,162 @@
     }
    
 }
+
+/**CUERPO DE LA PÁGINA***/
+
+h1{
+    font-size: 2.2rem;
+    color:var(--colorTitulo);
+    text-align: center;
+}
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+}
+.articulos{
+    width: 60%;
+}
+.articulo{
+    margin-bottom: 25px;
+    
+}
+.articulo h3{
+    font-size: 1.5rem;
+    color:var(--colorSubtitulo);
+    margin-bottom: 15px;
+}
+.articulo img{
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+.articulo p{
+ font-size: 1.2rem;
+ line-height: 1.6;
+ margin-bottom: 20px;
+}
+.boton{
+    padding: 5px 25px;
+    background-color: var(--fondoBarra);
+    color:var(--colorBoton);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+
+
+/**** ASIDE  *****/
+.posts{
+    width: 40%;
+
+}
+.posts h2{
+    font-size: 1.5rem;
+    color:var(--colorSubtitulo);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.post{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.post img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:var(--colorSubtitulo);
+}
+
+.formulario{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.formulario h3{
+    text-align: center;
+    font-size: 1.2rem;
+    color:var(--colorTitulo);
+    margin-bottom: 17px;
+}
+label{
+    display: block;
+    /*background-color: aqua;*/
+    background-image: url(../img/mozaico.jpg);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+input[type="password"]{
+    margin-bottom: 15px;
+}
+.btn {
+    background-color: var(--colorTitulo);
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+@media (max-width:992px){
+    h1{
+        margin-bottom: 1.5rem;
+    }
+    .articulos{
+            width: 65%;
+    }
+    .posts{
+        width: 35%;
+    }
+    .post{
+        width: 80%;
+        margin-right: 0px;
+    }    
+}
+
+@media (max-width:768px){
+    .contenido{
+        flex-direction: column;
+    }
+   
+}
+
+/******FOOTER********/
+footer{
+    width: 100%;
+    height: 35px;
+    background-color: var(--fondoBarra);
+}
+footer p{
+    color: var(--colorBoton);
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 35px;
+}
+
+/* RESPONSIVE */
+
+
+
