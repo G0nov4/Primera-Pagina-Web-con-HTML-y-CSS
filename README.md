@@ -3,7 +3,7 @@
 ## Titulo 2
 loremasdasdjkbaskdhbfaj,
 
-[Hola soy un link](https://link.comasdasdasd)
+[Ver Proyecto](https://g0nov4.github.io/Primera-Pagina-Web-con-HTML-y-CSS/)
 zacuando
 - first
 - second
